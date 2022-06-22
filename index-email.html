@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Фитоняш
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style-email.css">
+        <link rel="stylesheet" href="style/registation.css">
+        <link rel="icon" href="img/максот.jpeg">
+    </head>
+    <body>
+        <div id="zatemnenie">
+            <div id="okno">
+                <div class="okno">
+                    <article>
+                        Вход
+                    </article>
+                    <form action="/php/login.php" method="post">
+                        <label>
+                            <input type="text" placeholder="Введите логин" name="logReg">
+                        </label>
+                        <label>
+                            <input type="password" placeholder="Введите пороль" name="passReg">
+                        </label>
+                        <div class="submit">
+                            <label>
+                                <label>
+                                    <input type="submit" value="Войти" id="submit1" name="doLogin">
+                                </label>
+                            <a href="registration.html">Зарегестрироваться</a>
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <a href="#" class="close">Закрыть</a>
+            </div>
+        </div>
+        <div class="background">
+            <div class="container">
+                <div class="header">        
+                    <div class="img" id="menu">
+                        <div class="dropdown">
+                            <button class="dropbtn">Меню</button>
+                            <div class="dropdown-content">
+                                <a href="#zatemnenie">Авторизация</a>
+                                <a href="index.html">Главная</a>
+                                <a href="index-training.html">Типы тренировок</a>
+                                <a href="index-nutrition.html">Типы питания</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <h1>Обратная связь</h1>
+                    </div>
+                    <img src="img/logo.png">
+                </div>
+                    <div class="main">
+                        <div class="content">
+                            <form class="obratnuj-zvonok" action='email.php' method='post'>
+                                <div class="form-zvonok"> 
+                                    <label> 
+                                        Введите Имя
+                                    </label>
+                                    <input type="text" name="login" palceholder="Введите имя" required>
+                                    <label> 
+                                        Введите почту
+                                    </label>
+                                    <input type="email" name="email" palceholder="Введите маил" required>
+                                    <label> 
+                                        Опишите проблему
+                                    </label>
+                                    <input type="text" name="tel" palceholder="Опишите проблему" required>
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="about_us">
+                            <div class="aucont">
+                                <div class="aucont-h">
+                                    <h1>
+                                        Связь с нами
+                                    </h1>
+                                </div>
+                                <ul>
+                                    <a href="https://vk.com/magistor_p4elka">Мы VK</a>
+                                    <a href="https://www.facebook.com/roma.arhitektor.9/">Мы Facebook</a>
+                                    <a href="https://www.instagram.com/magistor_p4elka/">Мы Instagram</a>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="footer">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

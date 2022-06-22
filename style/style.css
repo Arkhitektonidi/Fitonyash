@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2c2121;
+}
+h1{
+    font-size: 40px;
+}
+article{
+    font-size: 20px;
+}
+.background{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin: auto;
+    width: 1280px;
+    background-color: #ffffff;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #c46cff;
+    display: flex;
+    flex-direction: row;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px;
+}
+.img{
+    width: 120px;
+    height: 100%;
+}
+.img img{
+    margin-top: 15px;
+    opacity: 50%;
+}
+.dropbtn {
+    background-color: #cd5ed5;
+    color: #000000;
+    margin: 15px 0 0 20px;
+    padding: 16px 20px 16px 20px;
+    font-size: 25px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 20px;
+    background-color: #ce9bd3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #a77aab;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #a84caf;}
+.heading{
+    width: 1160px;
+}
+.heading h1{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 1060px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.content h1{
+    margin-top: 30px;
+}
+.mTitle{
+    margin: 20px auto 0 auto;
+    width: 90%;
+    position: relative;
+}
+.mTitleTxt{
+    position: absolute;
+    top: 130px;
+    text-shadow: 1px 1px 1px #000000;
+}
+.mTitleTxt h1{
+    color: #ffffff;
+    font-size: 35px;
+}
+.mTitleTxt a{
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: #cd5ed5;
+    font-size: 20px;
+    text-decoration: none;
+}
+.mTitleTxt a:hover{
+    background: transparent;
+    border: 2px solid #930098;
+    color: #ffffff;
+}
+.mTitleImg{
+    background-image: url(../img/DvMVzx0WkAInPXT.jpg);
+    height: 500px;
+    width: 100%;
+    filter: brightness(40%);
+}
+.text-test{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    border-bottom:1px solid #000000;
+    padding-bottom: 50px;
+}
+.text-test article{
+    padding-top: 20px;
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.text1{
+    font-weight: bold;
+}
+.question{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+.answer{
+    width: 90%;
+    margin: 20px auto 0 auto;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 25px;
+}
+.answer li{
+    text-align: left;
+    font-size: 20px;
+    width: 200px;
+    margin: 0 auto 0 100px;
+}
+.answer li:hover{
+    border-bottom: 1px solid #3a2cff;
+    color: #3a2cff;
+}
+.result{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 25px;
+    font-size: 30px;
+    border-bottom: 1px solid #000000;
+    
+}
+.result h1{
+    color: #60008c;
+}
+.result img{
+    width: 400px;
+    height: 250px;
+}
+.result a{
+    text-decoration: none;
+}
+.result a:hover{
+    border-bottom: 1px solid #3a2cff;
+    color: #3a2cff;
+}
+.ravnovesie{
+    width: 90%;
+    margin: auto;
+    padding: 25px 0 50px 0;
+}
+.ravnovesie article{
+    text-align: justify;
+    font-size: 20px;
+}
+.ravnovesie h1{
+    text-align: left;
+    color: #60008c;
+    padding-bottom: 20px;
+}
+.about_us{
+    width: 220px;
+    height: 100%;
+}
+.aucont{
+    padding-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+.aucont h1{
+    background-color: #832bb3;
+    width: 150px;
+    border: 1px solid #000000;
+    font-size: 25px;
+    text-align: left;
+    padding: 0 5px 0 5px;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+.aucont ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.aucont a{
+    text-align: left;
+    margin: 10px 0 0 30px;
+    color: #3a2cff;
+}
+.footer{
+    background-color: #260038;
+    width: 100%;
+    height: 50px;
+}
